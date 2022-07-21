@@ -1,0 +1,158 @@
+* {
+  font-family: "Clear Sans", "Helvetica Neue", "Roboto", Arial, sans-serif;
+}
+
+*:focus {
+  color: inherit;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--title-color);
+}
+
+.navbar-wordle {
+  border-bottom: 0.5px solid var(--grid-color);
+}
+
+.wordle-brand,
+.wordle-brand:hover {
+  color: var(--title-color);
+}
+
+.btn-wordle {
+  color: var(--title-color);
+  background: none;
+  border: none;
+  padding: 0 1rem;
+}
+
+.btn-wordle:hover {
+  color: var(--title-color-hover);
+  border: none;
+  transition: 300ms ease;
+}
+
+.btn-wordle-outline {
+  color: var(--grid-current);
+  background: none;
+  border: 1px solid var(--grid-current);
+  padding: 0.75rem;
+  border-radius: 1em;
+}
+
+.btn-wordle-outline:hover {
+  color: var(--title-color);
+  border: 1px solid var(--title-color);
+  transition: 300ms ease;
+}
+
+.btn-wordle-toggle {
+  color: var(--tertiary);
+  background: none;
+  border: none;
+  transition: 300ms ease;
+}
+
+.toggle-on {
+  color: var(--primary);
+}
+
+.modal-content,
+.btn-close {
+  background-color: var(--background-color);
+  color: var(--title-color);
+}
+
+.alert {
+  top: 7.5%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding: 0.75em;
+  font-weight: bold;
+  position: absolute;
+  text-align: center;
+  background-color: var(--title-color);
+  color: var(--background-color);
+  transition: ease 300ms;
+}
+
+.close {
+  color: var(--title-color);
+  opacity: 1;
+}
+
+.modal-header {
+  border-bottom: 0.5px solid var(--highlight);
+  border-bottom: none;
+}
+
+hr {
+  border-bottom: 0.5px solid var(--highlight);
+}
+
+.no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.game-square {
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 0;
+  aspect-ratio: 1;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.game-current-guess {
+  border: 2px solid var(--grid-current);
+}
+
+.game-bg-default {
+  border: 2px solid var(--grid-color);
+  background-color: transparent;
+}
+
+.game-bg-correct {
+  background-color: var(--primary);
+}
+
+.game-bg-semicorrect {
+  background-color: var(--secondary);
+}
+
+.game-bg-incorrect {
+  background-color: var(--tertiary);
+}
+
+.game-row {
+  display: flex;
+}
+
+.game-col {
+  margin: 0.15rem;
+}
+
+.game-letter {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: xx-large;
+  color: white;
+}
+
+.game-letter-current {
+  color: var(--title-color);
+}
+
+.bg-default {
+  /* background-color: red; */
+  border: 1px solid var(--title-color-hover);
+}
