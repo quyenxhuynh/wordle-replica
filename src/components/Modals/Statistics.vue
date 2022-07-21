@@ -179,7 +179,7 @@ export default {
               :aria-valuemax="maxGuesses"
             ></div>
           </div>
-          {{ guessDistribution }}
+          <!-- {{ guessDistribution }} -->
           <!-- <div>My stats don't look right.</div> -->
         </div>
         <!-- <hr />

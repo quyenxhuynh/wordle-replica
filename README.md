@@ -1,5 +1,21 @@
 # wordle-replica
 
+Replica of The New York Time's Wordle
+![](https://i.imgur.com/0NgXLrW.png)
+
+Added hints and solutions
+![](https://i.imgur.com/lfLE1Qb.png)
+
+Improved UI for statistics
+![](https://i.imgur.com/9NxLhed.png)
+
+Included Dark Theme and High Contrast Mode for accessibility
+![](https://i.imgur.com/fwh0YQo.png)
+![](https://i.imgur.com/8F5ulyo.png)
+
+Endless game mode for endless fun!
+![](https://i.imgur.com/kc4sA4e.png)
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
